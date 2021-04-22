@@ -1,0 +1,118 @@
+html,body{
+    overflow-x: hidden;
+}
+    
+
+header{
+    flex-direction: column;
+}
+
+.ulc li{
+    display: inline-block;
+    padding: 5px 20px;
+font-size :15px;
+margin-top: 3px;
+font-family: 'Baloo Bhaina 2', cursive;
+}
+
+button{
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color:black;
+    color: cornsilk;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border: white 2px solid;
+}
+#home{
+    height: 800px;
+    width: 100%;
+    
+    
+
+}
+#heading{
+    height: 23px;
+    line-height: 20px;
+    padding: 50px;
+}
+p{
+    height: 15px;
+    padding: 20px;
+}
+.container1{
+    flex-direction: column;
+    height: 1000px;
+    margin-bottom: 10px;
+}
+
+#services::before{
+    content: " ";
+    background-image:url('services.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    position:absolute;
+    width: 100%;
+    height:500px ;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+.seo{
+    
+        margin-left: 10px;
+        width: 150px;
+        height: 150px;
+}
+.web {
+    width: 150px;
+    height: 150px;
+}
+#testimonials{
+    height: 1000px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+
+.card{
+    height:280px;
+    margin:10px;
+    padding: 2px;
+    font-size:16px;
+}
+#contact{
+
+    height: 450px;
+
+
+    background-image:url('contact.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 50%;
+    background-size: 100px;
+    background-color:#442C2E;
+    margin: 20px;
+    padding: 50px;
+    
+    
+}
+form{
+    
+        
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-right: 150px;
+    }
+
+.clients{
+    font-size: 16px;
+}
+#contact h2{
+    margin-top: 10px;
+}
